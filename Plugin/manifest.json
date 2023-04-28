@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "TukTukPanda",
+  "description": "Simply analyse the undertones of your messages.",
+  "version": "1.0",
+  "icons":{
+    "16" :"icon16.png",
+    "48" :"icon48.png"
+},
+  "host_permissions":["https://api-inference.huggingface.co/models/cardiffnlp/twitter-roberta-base-sentiment/*"],
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/config.js","scripts/content.js"
+        
+      ],
+      "matches": [
+        "https://mail.google.com/*"
+      ],
+      "css":["style.css"]
+    }
+  ]
+  
+}

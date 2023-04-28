@@ -1,0 +1,138 @@
+.snt-neg {
+    background-color: #f0d0d0 !important;
+}
+
+.snt-neu {
+    background-color: #eaeaea !important;
+}
+
+.snt-pos {
+    background-color: #e2edbd !important;
+}
+
+.snt-nav {
+    /*border: solid 1px red;*/
+    position: absolute;
+    top: -30px;
+    right: 0;
+    left: 0;
+    height: 30px;
+    text-align: right;
+}
+
+.snt-nav div {
+    display: inline-block;
+}
+
+.snt-nav .snt-sts {
+    color: #3c3c3c;
+    background-color: #ebe8eb;
+    font-size: 16px;
+    font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    padding-right: 14px;
+    margin-right: -5px;
+    top: -2px;
+    min-width: 350px;
+    text-align: right;
+    position: relative;
+    z-index: -1;
+    height: 100%;
+}
+
+.snt-btn-gen {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    z-index: 0;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: normal;
+    background: none;
+    border-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-sizing: border-box;
+    min-width: auto;
+    cursor: pointer;
+    outline: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: #fff;
+}
+
+.snt-fix {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    z-index: 0;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: normal;
+    background: #232323;
+    border-radius: 4px;
+    box-sizing: border-box;
+    min-width: auto;
+    outline: none;
+    color: #fff;
+    margin-left: 6px;
+    padding: 0 2px;
+    cursor: pointer;
+}
+
+.snt-fix:after {
+    content: '✨';
+}
+
+.snt-btn-clear {
+    cursor: pointer;
+    margin-right: -4px;
+    height: 30px;
+    background-color: #cdcdcd;
+    transition: all 0.3s ease;
+}
+
+.snt-btn-clear:hover, .snt-btn-clear:focus {
+    background-color: #e6e6e6;
+}
+
+.snt-btn-clear:after {
+    content: '🧹';
+}
+
+.snt-btn {
+    margin-right: 55px;
+    height: 30px;
+    background-color: #8245a5;
+    transition: all 0.3s ease;
+}
+
+.snt-btn:hover, .snt-btn:focus {
+    background-color: #8d51b0;
+}
+
+.snt-btn.ready:after {
+    content: '🐼';
+}
+
+.snt-btn.thinking {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.snt-btn.thinking:after {
+    content: '⏳';
+    animation: rotation 2s infinite linear;
+    pointer-events: none;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
