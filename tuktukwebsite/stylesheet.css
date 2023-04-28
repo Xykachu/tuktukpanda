@@ -1,0 +1,117 @@
+.login-input {
+    width: 130px;
+}
+  
+.form-button {
+  width: 80px;
+  height: 35px;
+}
+
+.signup-box {
+  margin-left: 100px ;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 10px;
+}
+
+.hero-body{
+  background: rgb(44,62,80);
+  background: linear-gradient(90deg, rgba(44,62,80,1) 0%, rgba(0,0,0,1) 100%);
+  padding-top: 5rem !important;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+section, nav {
+  background: rgb(52,52,52);
+  background: linear-gradient(90deg, rgba(52,52,52,1) 0%, rgba(51,51,51,1) 100%);
+}
+
+.get-started {
+  background: rgb(30, 30, 30);
+background: linear-gradient(90deg, rgb(93, 64, 96) 0%, rgb(31, 0, 39) 100%);
+  min-height: 60%;
+}
+.get-started, .title.is-3 {
+  color: white;
+}
+
+.hero.is-white .subtitle a:not(.button), .hero.is-white .subtitle strong {
+  color: #00d1b2;
+}
+
+.hero.is-white a:not(.button):not(.dropdown-item):not(.tag), .hero.is-white strong ,a .about{
+  color: #00d1b2;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+ 
+.about-container-mission,.about-container-how,.about-container-features {
+  width: 100%;
+  text-align: center;
+  border: rgb(0, 0, 0) 5px solid;
+  background-color: rgba(179, 248, 241, 0.1);
+  padding: 40px;
+}
+
+.button.is-primary.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color:#00d1b2;
+  color: #fff;
+}
+
+.login-title {
+  padding-bottom: 15px;
+}
+
+.login-container {
+  background-color: rgba(44, 62, 80, 0.954);
+  padding: 15px;
+  min-height: 520px;
+  padding-bottom: 15  0px;
+}
+
+.btn-get-started:hover {
+  background-color: rgb(143, 218, 190)!important;
+}
+
+.btn-reg {
+  font-weight: bold;
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(88, 27, 105) !important;
+}
+
+.btn-plug {
+  font-weight: bold;
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(88, 27, 105) !important;
+}
+
+.btn-reg:hover {
+  background-color: rgb(101, 48, 140) !important;
+}
+
+.btn-plug:hover {
+  background-color: rgb(101, 48, 140) !important;
+}
+
+tr, td {
+  background-color: rgba(44,62,80,0.954);
+  color: aquamarine;
+}
+
+tr {
+  width: 500px !important;
+}
+  
+textarea{
+  font-size: 1.5em;
+}
+
+.results-container {
+  border: #00d1b2 2px solid !important;
+}

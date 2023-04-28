@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="TukTukPanda" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>TukTukPanda</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+        <link rel="manifest" href="site.webmanifest" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="stylesheet.css" />
+    </head>
+    <body>
+        <section class="hero is-white is-medium">
+            <nav class="navbar is-transparent">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="index.html">
+                        <img src="media/icon48.png" alt="tuk" />
+                        <h6 href="index.html" class="subtitle" style="padding-left: 15px">
+                            <strong>TukTukPanda</strong>
+                        </h6>
+                    </a>
+                    <div id="navbar-burger-id" class="navbar-burger burger" data-target="navbar-menu-id">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div id="navbar-menu-id" class="navbar-menu">
+                    <div class="navbar-start"></div>
+                    <div class="navbar-end"></div>
+                </div>
+            </nav>
+        </section>
+
+        <!-- CONTENT-->
+        <section class="hero is-primary is-bold is-medium">
+            <div class="hero-body">
+                <div class="container has-text-centered login-container" style="margin-top: 50px">
+                    <div class="columns">
+                        <div class="column is-auto">
+                            <div
+                                id="signup-box"
+                                class="signup-box"
+                                style="margin-right: 25%; margin-top: 10%; margin-bottom: 10%; margin-left: 25%"
+                            >
+                                <div class="signup-area" style="padding: 50px; width: 100%">
+                                    <h1 class="title" style="margin-top: 20px">Login</h1>
+                                    <div class="field">
+                                        <p class="subtitle errorMsg is-4"></p>
+                                        <p class="control has-icons-left has-icons-right">
+                                            <input
+                                                id="login-user"
+                                                class="input is-success"
+                                                type="text"
+                                                placeholder="Username"
+                                            />
+                                            <span class="icon is-small is-left">
+                                                <i class="fa fa-user"></i>
+                                            </span>
+                                            <span class="icon is-small is-right">
+                                                <i class="fa fa-check"></i>
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="field">
+                                        <p class="control has-icons-left has-icons-right">
+                                            <input
+                                                id="login-pass"
+                                                class="input"
+                                                type="password"
+                                                placeholder="Password"
+                                            />
+                                            <span class="icon is-small is-left">
+                                                <i class="fa fa-lock"></i>
+                                            </span>
+                                            <span class="icon is-small is-right">
+                                                <i class="fa fa-check"></i>
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <br />
+                                    <button
+                                        id="login-button"
+                                        class="form-button button is-primary is-inverted is-outlined"
+                                    >
+                                        Login
+                                    </button>
+                                    <br />
+                                    <br />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER-->
+        <section class="hero">
+            <footer class="footer">
+                <div class="container">
+                    <div class="content has-text-centered">
+                        <p>
+                            <strong>TukTukPanda</strong>
+                            <span class="icon is-small"> <i class="fa fa-copyright"></i> </span>
+                            2023
+                        </p>
+                        <p>
+                            <a class="icon has-text-primary" href="https://github.com/xykachu" target="_blank">
+                                <i class="fa fa-github"></i>
+                            </a>
+                            <a class="icon has-text-primary" href="https://twitter.com/TukPanda" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a class="icon has-text-primary" href="mailto:mail@tuktukpanda.com" target="_blank">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </section>
+        <script src="app.js"></script>
+    </body>
+</html>
